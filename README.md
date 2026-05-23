@@ -1,5 +1,6 @@
 # Game-LQA-Agent
 A multi-agent workflow for automated game localization and LQA based on LLMs.
+
 项目名称： 基于多 Agent 协作的独立游戏本地化自动化 LQA（语言质量保证）流水线
 1. 解决的核心痛点：
 独立游戏文本量巨大（常达数十万词），且包含复杂的 JSON/XML 代码标签。传统 CAT 工具（如 memoQ）的内置 QA 只能进行死板的规则检查（如漏空格、缺标签），无法识别“机翻腔”、“死译”、语气不符以及结合游戏世界观（Lore）的上下文语境错误。而人工全量审校成本极高，导致独立游戏汉化质量难以把控。
